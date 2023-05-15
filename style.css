@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(167, 122, 122, 0.267);
+    font-family: 'Bebas Neue', cursive;
+}
+
+form{
+    margin-top: 70px;
+    background-color: rgba(250, 250, 250, 0.829);
+    border-radius: 20px;
+    padding: 40px 60px;
+    min-width: 400px
+}
+
+
+.button{
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 3px;
+    color: rgb(241, 163, 44);
+}
+
+
+.reseau-sociaux{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.reseau-sociaux p{
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid ;
+    color: rgb(19, 1, 1);
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}   
+
+.choix-email{
+    text-align: center;
+}
+
+.imputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.imputs [type="email"], [type="password"]{
+     padding: 15px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: rgb(236, 222, 222);
+    outline: none;
+
+}
+
+.inscription{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inscription span {
+    color: rgb(241, 163, 44) ;
+    cursor: pointer;
+}
+
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(241, 163, 44);
+    cursor: pointer; 
+    
+}
+
